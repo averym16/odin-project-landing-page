@@ -1,4 +1,6 @@
-
+body{
+    margin:0%;
+}
 header{
     background-color:#1F2937;
     font-family:'Hero', sans-serif;
@@ -8,25 +10,25 @@ header>p{
    font-size:24px;
     color: #F9FAF8;
     justify-content:flex-start;
-    padding-left:2%;
+    padding-left: 10%;
+    
 }
-.head{
+
+header>ul{
+    display:flex;
+    padding-right: 10%;
+    gap:5%;
+    flex:auto;
+    justify-content:flex-end;
+    list-style-type:none;
     flex:1;
     font-size:18px;
     color:#E5E7EB;
-    
-}
-ul{
-    display: flex;
-    padding: 2%;
-    gap:5%;
-    flex:1;
-    justify-content:flex-end;
-    list-style-type:none;
 }
 
 .first-section{
     background-color:#1F2937;
+    display: flex;
 }
 .second-section{
     background-color:white;
