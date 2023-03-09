@@ -8,11 +8,15 @@ header>p{
    font-size:24px;
     color: #F9FAF8;
     justify-content:flex-start;
+    padding:2%;
 }
-head{
+.head{
     flex:1;
     font-size:18px;
     color:#E5E7EB;
+    
+}
+.head>li{
     justify-content:flex-end;
     list-style-type:none;
 }
