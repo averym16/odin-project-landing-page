@@ -29,7 +29,41 @@ header>ul{
 .first-section{
     background-color:#1F2937;
     display: flex;
+    font-family:'Courier New', Courier, monospace;
+    
 }
+.top-text > h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.top-text{
+    padding:10%;
+    align-items:auto;
+    max-width:25%;
+    min-width: none;
+
+}
+.top-text> p{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.top-text>button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 2%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    width:30%;
+
+}
+#l{
+    display:flex;
+    justify-content:flex-end;
+    padding:10%;
+}
+
 .second-section{
     background-color:white;
 }
